@@ -1,0 +1,51 @@
+body{
+	background: rgba(23,32,42);
+	color: white;
+	height: 100%;
+	width: 100%;
+	padding: 5px;
+
+}
+
+#nav{
+	width: 95%;
+	margin: 5px;
+	padding: 10px;
+	background: #7FB3D5;
+	color: #1A5276;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid grey;
+}
+
+#recuadro{
+	border: 1px double red;
+	cursor: pointer;
+	border-radius: 5px;
+	background: #EC7063;
+}
+
+#cambia{
+	padding: 5px;
+	margin: 3px;
+	border-radius: 5px;
+}
+
+.drag{
+	cursor: pointer;
+}
+
+.punteado{
+	border-style: dotted;
+	border-width: 3px;
+	border-radius: 5px;
+}
+
+.estilo{
+	padding: 10px;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin-bottom: 15px; 
+	text-align: center;
+}
+
