@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Laboratorios UIA</title>
+	<!--Icono-->
+	<link rel="shortcut icon" href="img/m.png">
+	<!--bootstrap-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
+	<!--fontawesome-->
+	<link rel="stylesheet" type="text/css" href="css/fontawesome-5.10.2/css/all.css">
+	<!--alertify-->
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+	<!--css-->
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<!--jQuery-->
+	<script src="js/jquery/jquery-3.4.1.min.js"></script>
+	<!--javascript-->
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<!--Navbar de elementos-->
+	<nav class="navbar navbar-expand-lg" id="barra">
+	  <div id="logo">
+	  	<img src="img/letraIbero.png" id="letraIbero">
+	  </div>
+	</nav>
+
+	<!--Cuerpo del login-->
+	<div class="row justify-content-center 
+					justify-content-md-center" align="center">
+	 	<div class="col-8 col-md-6 col-lg-5" id="ingreso">
+	 		<br>
+			<div class="col-md-12">
+				<div class="text-white">
+					<h4><b>INICIAR SESIÓN</b></h4>
+					<span>
+						<h6 class="letra"><b>Laboratorios</b></h6>
+					</span>
+				</div>
+				
+			</div>
+			<div class="form-group">
+				<div class="inputWithIcon">
+				  <input type="text"
+				         placeholder="No Cuenta"
+				         id="us"
+				         autocomplete="off" 
+				         maxlenght="7"
+				         required="yes" 
+				         onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+				  <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+				</div>
+				<p class="text-secondary">Número completo de tu cuenta</p>
+			</div>
+			<div class="form-group">
+				<div class="inputWithIcon">
+				  <input type="password" 
+				  		 placeholder="Contraseña"
+				  		 maxlength="20" 
+				  		 id="ctr"
+				  		 required="yes">
+				  <i class="fas fa-key pass fa-lg fa-fw" aria-hidden="true"></i>
+				</div>	
+			</div>
+			<hr>
+			<div class="form-group">
+				<div class="col-md-12">
+					<button type="button" id="ingresar" class="btn btn-danger float-right">Ingresar <i class="fas fa-sign-in-alt text-outline-danger"></i></button>
+				</div>
+			</div>		
+		</div><!--ingreso-->
+	</div>
+
+	<!--Footer Ibero-->
+	<footer class="text-center text-lg-end" id="pPag">
+	  <div id="miradaIbero" class="float-left">
+	  	<img src="img/miradaIbero.png" id="miradaIbero">
+	  </div>
+	  <!-- Copyright -->
+	  <hr>
+	  <div class="text-center p-3">
+	    © 2020-2021 Universidad Iberoamericana Ciudad de México:<br>
+	    Prolongación Paseo de la Reforma 880, Lomas de Santa Fe, México C.P. 01219, CDMX. <br>
+	    <a href="#">Privacidad.</a>
+	    <a href="#">Términos.</a>
+	    <a href="#">Soporte.</a>
+	  </div>
+
+	</footer>
+</body>
+</html>

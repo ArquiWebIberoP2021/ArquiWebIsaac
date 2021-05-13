@@ -1,0 +1,28 @@
+body{ background-image: linear-gradient(    rgba(0, 0, 0, 0.5),    rgba(227, 227, 227, 0.3)    ), url('../img/fondoibero.png');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment:fixed; }
+/*Navbar*/
+#barra, #ingreso{ background: #333333; color: white; opacity: 0.8; }
+#letraIbero{ width: 150px; background: transparent; border: 0; padding-left: 20px; padding-right: 20px; }
+#logo{ cursor: pointer; }
+.nav-link{ list-style: none; color: white; margin-right: 2px; border-right: 1px solid white; }
+.nav-link:hover{ color: #E43422; }
+/*login*/
+#ingreso{ -webkit-box-shadow: 13px 13px 11px -8px rgba(0,0,0,0.75); -moz-box-shadow: 13px 13px 11px -8px rgba(0,0,0,0.75); box-shadow: 13px 13px 11px -8px rgba(0,0,0,0.75); margin-top: 100px; border-radius: 10px; padding: 5px; }
+.letra{ color: #E43422; }
+/*footer*/
+#miradaIbero{ width: 250px; background: transparent; border: 0; padding-left: 20px; padding-right: 20px; padding-top: 30px;}
+@media screen and (min-width: 1200px) { #pPag{ display: block; } }
+@media screen and (max-width: 1200px) { #pPag{ display: none; } }
+#pPag{ background: #333333; color: white; opacity: 0.8; position: fixed; left: 0; bottom: 0; width: 100%; min-height: 150px; }
+/* Usuario y contraseña */
+#us, #ctr{ background: transparent; width: 77%; border-radius: 5px; border: 1.5px solid #E43422; padding: 3px; margin-top: 20px; color: white;}
+input[type="text"], input[type="password"] { width: 100%; border: 2px solid #aaa; border-radius: 4px; margin: 8px 0; outline: none; padding: 8px; box-sizing: border-box; transition: 0.3s;}
+input[type="text"]:focus, input[type="password"]:focus{ border-color: #E43422; /*color rojo tono danger*/ box-shadow: 0 0 9px 0 #E43422; }
+.inputWithIcon input[type="text"], .inputWithIcon input[type="password"] { padding-left: 5px; }
+.inputWithIcon { position: relative; }
+.inputWithIcon i { position: absolute; left: 5px; top: 20px; padding: 9px 8px; color: #aaa; transition: 0.3s;}
+.inputWithIcon input[type="text"]:focus + i, .inputWithIcon input[type="password"]:focus + i{ color: #E43422; }
+/*extra*/
+.row{ margin: 0; padding: 0; }
+/*Quitamos apariencia de barrita type number*/
+input[type="number"]{ -webkit-appearance: textfield !important; margin: 0; -moz-appearance:textfield !important; }
+
